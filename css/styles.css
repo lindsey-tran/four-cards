@@ -33,6 +33,13 @@ p {
 .bottom-line {
   margin-top: 0;
 }
+.all-cards {
+  margin: auto;
+  position: relative;
+  width: 1000px;
+  height: 600px;
+
+}
 .team-builder {
   background-color: #ffffff;
   background-color: hsl(0, 0%, 98%);
@@ -44,8 +51,9 @@ p {
   height: 225px;
   padding-left: 25px;
   position: absolute;
-  left: 480px;
-  top: 325px;
+  left: 50%;
+  margin-left: -150px;
+  top: 5%;
   text-align: left;
   width: 275px;
 }
@@ -65,8 +73,8 @@ p {
   height: 225px;
   padding-left: 25px;
   position: absolute;
-  left: 800px;
-  top: 450px;
+  left: 67%;
+  top: 25%;
   text-align: left;
   width: 275px;
 }
@@ -85,10 +93,10 @@ p {
   box-shadow: 0 5px 12px 1px hsl(229, 6%, 66%);
   height: 225px;
   padding-left: 25px;
-  left: 480px;
-  margin-bottom: 100px;
-  top: 575px;
   position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 47%;
   text-align: left;
   width: 275px;
 }
@@ -108,8 +116,8 @@ p {
   height: 225px;
   padding-left: 25px;
   position: absolute;
-  top: 450px;
-  left: 160px;
+  left: 3%;
+  top: 25%;
   text-align: left;
   width: 275px;
 }
